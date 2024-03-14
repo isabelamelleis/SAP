@@ -3,10 +3,47 @@
 }
 
 #section1-index1 {
+    display: flex;
     background-color: #dae9f7;
     border-radius: 10px;
     padding: 1%;
 }
+
+#section1-index1 button {
+    background-color: rgb(74, 74, 207);
+    color: white;
+    border-radius: 10px;
+    font-size: 60%;
+    padding: 1%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #section2-index1 {
     background-color: #dae9f7;
@@ -21,12 +58,6 @@
 }
 
 #aside-index1 {
-    background-color: #dae9f7;
-    border-radius: 10px;
-    padding: 1%;
-}
-
-#section1-index1 {
     background-color: #dae9f7;
     border-radius: 10px;
     padding: 1%;
