@@ -8,14 +8,16 @@
 }
 
 #cabecalho-pagina-antiga > h1 {
-    padding-inline: 25px;
-    padding-block: 10px;
+    display: flex;
+    padding-inline: 20px;
+    padding-block: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 180%;
-    background-color: rgb(218, 212, 212);
+    background-color: rgb(233, 224, 224);
 }
 
 #cabecalho-pagina-antiga > img {
+    display: flex;
     height: 20px;
     width: 100%;
 }
@@ -25,23 +27,102 @@
     flex-direction: row;
     align-items: center;
     padding-inline: 10px;
+    padding-block: 10px;
     gap: 10px;
+    background-color: rgb(233, 224, 224);
 
 }
 
-.linha-vertical {
-    height: 18px;
+.linha-vertical-nav {
+    height: 25px;
+    border: 10px;
     border-right: 1px solid rgb(171, 167, 167);
-}
-
-.imagem-icones {
-   height: 20px; 
-   width: 20px;
 }
 
 #nav-pagina-antiga > button {
     display: flex;
     align-items: center;
-    padding-inline: 0.3%;
-    gap: 2px;
+    gap: 4px;
+}
+
+#botao-salvar {
+    padding-inline: 6px;
+    padding-block: 2.5px;
+}
+
+#imagem-icone-salvar {
+    height: 18px; 
+    width: 18px;
+}
+
+#botao-cancelar {
+    padding-inline: 6px;
+    padding-block: 4px;
+}
+
+#imagem-icone-cancelar {
+    height: 13px; 
+    width: 15px;
+    padding-right: 3px;
+}
+
+#botao-editar {
+    padding-inline: 8px;
+    padding-block: 4.3px;
+}
+
+#imagem-icone-editar {
+    height: 15px; 
+    width: 15px;
+    padding-right: 3px;
+}
+
+#botao-load-draft {
+    padding-inline: 8px;
+    padding-block: 4.2px;
+}
+
+#botao-refresh {
+    padding-inline: 8px;
+    padding-block: 4.6px;
+}
+
+#imagem-icone-refresh {
+    height: 15px; 
+    width: 15px;
+}
+
+#botao-undo {
+    padding-inline: 8px;
+    padding-block: 2.5px;
+}
+
+#imagem-icone-undo {
+    height: 20px; 
+    width: 20px;
+}
+
+#botao-redo {
+    padding-inline: 8px;
+    padding-block: 2.5px;
+}
+
+#imagem-icone-redo {
+    height: 20px; 
+    width: 20px;
+}
+
+#botao-check {
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+
+.botoes-icones-tabelas {
+    padding-block: 4px;
+    padding-inline: 8px;
+}
+
+.imagens-icones-tabelas {
+    height: 17px; 
+    width: 17px;
 }
