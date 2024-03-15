@@ -26,19 +26,41 @@
     width: auto;
 }
 
-#article-section1-index1 #mensagens-posso-ajudar {
+#mensagens-posso-ajudar {
     color: #3959b4;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 21px;
 }
 
-#article-section1-index1 #mensagens-posso-ajudar button {
+#botao-fale-comigo {
+    background-color: #3959b4;
+    color: white;
+    border-radius: 10px;
+    border: 0;
     text-align: start;
     padding-left: 5%;
-    width: 70%;
+    width: 60%;
 }
 
+.botao {
+    background-color: #3959b4;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    font-size: 70%;
+}
+
+.seta {
+    border: 0;
+    border-radius: 100%;
+    color: #3959b4;
+}
+
+/*
 #article-section1-index1 button {
     background-color: #3959b4;
     color: white;
@@ -48,9 +70,10 @@
     height: 22px;
     border: 0;
 }
+*/
 
-.botao-e-seta img{
-    border-radius: 100%;
+.botao-e-seta {
+    display: flex;
 }
 
 #botoes-posso-ajudar {
