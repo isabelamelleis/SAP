@@ -2,63 +2,113 @@
     display: flex;
 }
 
-#section1-index1 {
-    display: flex;
-    background-color: #dae9f7;
-    border-radius: 10px;
-    padding: 1%;
+#article-index1 {
+    width: 60%;
+    margin-left: 1%;
 }
 
-#section1-index1 button {
-    background-color: rgb(74, 74, 207);
+/*---------------------------------------------------*/
+#article-section1-index1 {
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+}
+
+#article-section1-index1 img {
+    height: 200px;
+    width: auto;
+}
+
+#article-section1-index1 #mensagens-posso-ajudar {
+    color: #3959b4;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+#article-section1-index1 #mensagens-posso-ajudar button {
+    text-align: start;
+    padding-left: 5%;
+    width: 70%;
+}
+
+#article-section1-index1 button {
+    background-color: #3959b4;
     color: white;
     border-radius: 10px;
-    font-size: 60%;
     padding: 1%;
-    width: 100%;
+    width: 120%;
+    height: 22px;
+    border: 0;
 }
 
+.botao-e-seta img{
+    border-radius: 100%;
+}
 
+#botoes-posso-ajudar {
+    margin-right: 5%;
+}
 
+#article-section1-index1 #botoes-posso-ajudar div {
+    margin: 2%;
+}
 
+/*---------------------------------------------------*/
 
+#article-section2-index1 {
+    width: auto;
+    height: 200px;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    padding: 1%;
+    margin-right: 2.5%;
+}
 
+#article-section3-index1 {
+    width: auto;
+    height: 200px;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    padding: 1%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
 
+#aside-index1{
+    width: 40%;
+    margin-right: 1%;
+}
 
+#aside-section1-index1{
+    width: auto;
+    height: 210px;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 2.5%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#section2-index1 {
+#aside-section2-index1{
+    width: auto;
+    height: 200px;
     background-color: #dae9f7;
     border-radius: 10px;
     padding: 1%;
 }
 
-#section3-index1 {
+#aside-section3-index1{
+    width: auto;
+    height: 200px;
     background-color: #dae9f7;
     border-radius: 10px;
     padding: 1%;
-}
-
-#aside-index1 {
-    background-color: #dae9f7;
-    border-radius: 10px;
-    padding: 1%;
+    margin-top: 2.5%;
 }
