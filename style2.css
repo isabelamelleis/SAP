@@ -13,7 +13,7 @@
     padding-block: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 180%;
-    background-color: rgb(233, 224, 224);
+    background-color: #E5E5E5;
 }
 
 #cabecalho-pagina-antiga > img {
@@ -29,14 +29,14 @@
     padding-inline: 10px;
     padding-block: 10px;
     gap: 10px;
-    background-color: rgb(233, 224, 224);
+    background-color: #E5E5E5;
 
 }
 
 .linha-vertical-nav {
     height: 25px;
     border: 10px;
-    border-right: 1px solid rgb(171, 167, 167);
+    border-right: 1px solid rgb(175, 174, 169);
 }
 
 #nav-pagina-antiga > button {
@@ -125,4 +125,70 @@
 .imagens-icones-tabelas {
     height: 17px; 
     width: 17px;
+}
+
+#botao-addfunc {
+    padding-block: 4px;
+    padding-inline: 8px; 
+}
+
+#navegacao-tabela1 {
+    display: flex;
+    padding-inline: 20px;
+    padding-block: 20px;
+    gap: 35px;
+    align-items: center;
+}
+
+#navigation {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#repositories {
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+#botao-pasta {
+    height: 20px; 
+    width: 20px;
+}
+
+#linha-vertical-maior {
+    height: 200;
+    border: 10px;
+    border-right: 1px solid rgb(175, 174, 169);
+}
+
+table {
+    border-collapse: collapse;
+    border: 0.1px solid #E5E5E4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+  
+thead {
+    text-align: start;
+    background-color: #E5E5E4;
+}
+
+th, td {
+    border: 0.1px solid rgb(160 160 160);
+    padding: 6px 7px;
+    font-weight: 150;
+}
+
+th {
+    text-align: start;
+    background-color: #E5E5E4;
+}
+
+.coluna-vazia {
+    padding: 6px 15px;
+    background-color: #007DC0;
+}
+
+.linha-azulada {
+    background-color: #D0E8F5;
 }
