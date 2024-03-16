@@ -5,10 +5,10 @@
 
 #body-pagina-antiga {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
 }
 
 #cabecalho-pagina-antiga > h1 {
-    display: flex;
     padding-inline: 20px;
     padding-block: 8px;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,10 +16,10 @@
     background-color: #E5E5E5;
 }
 
-#cabecalho-pagina-antiga > img {
-    display: flex;
-    height: 20px;
-    width: 100%;
+#listras-tons-amarelos {
+    background-image: url(./imagens/listras.png);
+    background-repeat:repeat-x;
+    padding-block: 10px;
 }
 
 #nav-pagina-antiga {
@@ -48,6 +48,7 @@
 #botao-salvar {
     padding-inline: 6px;
     padding-block: 2.5px;
+    white-space: nowrap;
 }
 
 #imagem-icone-salvar {
@@ -80,6 +81,7 @@
 #botao-load-draft {
     padding-inline: 8px;
     padding-block: 4.2px;
+    white-space: nowrap;
 }
 
 #botao-refresh {
@@ -130,14 +132,35 @@
 #botao-addfunc {
     padding-block: 4px;
     padding-inline: 8px; 
+    white-space: nowrap;
+}
+
+#principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+aside {
+    padding-bottom: 100px;
+    background-color: white;
 }
 
 #navegacao-tabela1 {
     display: flex;
-    padding-inline: 20px;
-    padding-block: 20px;
+    padding-left: 20px;
+    padding-block: 8px;
+    padding-top: 15px;
     gap: 35px;
     align-items: center;
+    background-color: #F2F2F2;
 }
 
 #navigation {
@@ -147,18 +170,38 @@
 
 #repositories {
     font-size: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 #botao-pasta {
     height: 20px; 
     width: 20px;
+    opacity: 70%;
+    padding-right: 10px;
+}
+
+#indicador-1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+
+#indicador-1 > .seta-azul-selected {
+    height: 10px; 
+    width: 30px;
+    padding-left: 48px;
+}
+
+#blue-line {
+    max-height: 5px;
+    width: 100%;
 }
 
 #linha-vertical-maior {
-    height: 200;
-    border: 10px;
-    border-right: 1px solid rgb(175, 174, 169);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200px;
+    border-right: 8px solid #E5E5E5;
 }
 
 table {
@@ -166,10 +209,11 @@ table {
     border: 0.1px solid #E5E5E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
+    background-color: white;
 }
   
 thead {
-    text-align: start;
+    text-align: left;
     background-color: #E5E5E4;
 }
 
@@ -177,6 +221,7 @@ th, td {
     border: 0.1px solid rgb(160 160 160);
     padding: 6px 7px;
     font-weight: 150;
+    white-space: nowrap;
 }
 
 th {
@@ -184,11 +229,334 @@ th {
     background-color: #E5E5E4;
 }
 
+#nav-table-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+#navegacao-tabela2 {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    gap: 10px;
+    align-items: center;
+}
+
+#navegacao-tabela2 > img {
+    height: 40px;
+    width: 50px;
+}
+
+
+#overview-page-schema {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+#toolbar-schema {
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+#wire-schema {
+    font-size: 15px;
+}
+
+#div-pasta {
+    display: flex;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    gap: 35px;
+    align-items: center;
+}
+
+#botao-pasta-2 {
+    height: 25px; 
+    width: 25px;
+    opacity: 70%;
+}
+
+#indicador-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+
+#indicador-2 > .seta-azul-selected {
+    height: 10px; 
+    width: 30px;
+    padding-left: 170px;
+}
+
+.blue-line-2 {
+    height: 5px;
+    width: 100%;
+}
+
+.imagem-tabela-2 {
+    height: 18px; 
+    width: 18px;
+    padding-right: 5px;
+    padding-left: 50px;
+}
+
+#section-table-2 {
+    display: flex;
+}
+
+#section-botoes-table-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons-table-two-part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-block: 6px;
+    padding-inline: 10px;
+    background-color: #E5E5E4;
+}
+
+.imagem-plus {
+    height: 20px; 
+    width: 18px;
+    padding-right: 5px;
+}
+
+.botoes-plus {
+    display: flex;
+    align-items: center;
+    padding-inline: 8px;
+    padding-block: 3px;
+}
+
+#buttons-table-two-part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-block: 6px;
+    padding-inline: 10px;
+    background-color: #E5E5E4;
+}
+
+#botao-UIBB {
+    display: flex;
+    align-items: center;
+    padding-inline: 8px;
+    padding-block: 3px;
+}
+
+.table-2-resolution {
+    align-self: flex-start;
+    padding-block: 6px;
+    padding-right: 300px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .coluna-vazia {
     padding: 6px 15px;
     background-color: #007DC0;
 }
 
+#icone-de-repeticao {
+    height: 32px; 
+    width: 40px;
+}
+
+.fundo-cinza {
+    background-color: #E9EDF0;
+}
+
+#cedula-cheia {
+    display: flex;
+    align-items: center;
+    background-color: #E9EDF0;
+    border: none;
+}
+
+#cedula-verde {
+    height: 18px; 
+    width: 18px;
+    padding-right: 5px;
+    padding-left: 8px;
+}
+
+#seta-da-tabela2 {
+    height: 8px; 
+    width: 12px;
+    padding-left: 10px;
+}
+
+#scroll {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#scroll > div {
+    align-content: center;
+}
+
+#barra-de-rolagem {
+    height: 15px;
+    width: 1000px;
+    padding-bottom: 3px;
+}
+
+.setas-rolagem {
+    padding-top: 5px;
+    height: 22px;
+    width: 30px;
+}
+
 .linha-azulada {
     background-color: #D0E8F5;
+}
+
+#formulario {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    background-color: white;
+}
+
+#titulo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+
+#titulo-footer > div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+#titulo-footer > div > button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-block: 4px;
+    padding-inline: 8px; 
+}
+
+#dados-formulario {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-inline: 100px;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+#dados > div > label > img {
+    padding-right: 3px;
+    height: 15px;
+    width: 20px;
+}
+
+#dados, #dados-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+
+ #dados-2 > div > input {
+    padding-left: 150px;
+    padding-bottom: 6px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
+}
+
+#dados > div > input {
+    padding-left: 150px;
+    padding-bottom: 6px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
+}
+
+#dados > div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#dados-2 > div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#buttons-table-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-block: 8px;
+    padding-inline: 10px;
+    background-color: #E5E5E4;
+}
+
+#botao-new {
+    display: flex;
+    align-items: center;
+    padding-inline: 4px;
+    padding-block: 2px;
+}
+
+#imagem-folha-com-sol {
+    height: 20px;
+    width: 20px;
+}
+
+.imagem-lixo {
+    height: 20px;
+    width: 30px;
+}
+
+#imagem-double-paper {
+    height: 20px;
+    width: 30px;
+}
+
+#botao-up {
+    display: flex;
+    align-items: center;
+    padding-inline: 6px;
+    padding-block: 4px;
+}
+
+#botao-down {
+    display: flex;
+    align-items: center;
+    padding-inline: 6px;
+    padding-block: 4px;
+}
+
+.user-config {
+    height: 23px;
+    width: 30px;
+}
+
+.botao-user-config {
+    display: flex;
+    align-items: center;
+    padding-inline: 3px;
+    padding-block: 0px;
+}
+
+button {
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }

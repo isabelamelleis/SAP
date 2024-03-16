@@ -1,129 +1,342 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAP Antigo</title>
     <link rel="stylesheet" href="/style2.css">
 </head>
+
 <body id="body-pagina-antiga">
     <header id="cabecalho-pagina-antiga">
         <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
-        <img src="/imagens/listras-amarelas.jpg" alt="Listras Amarelas - Cabeçalho">
+        <div id="listras-tons-amarelos"></div>
         <nav id="nav-pagina-antiga">
-            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png" alt="Ícone salvar">Save</button>   
-            <button id="botao-cancelar"><img id="imagem-icone-cancelar" src="/imagens/cancel-icon.png" alt="Ícone cancelar">Cancel</button>   
-            <button id="botao-editar"><img id="imagem-icone-editar" src="imagens/pencil-icon.png" alt="Ícone editar">Edit</button>
-            <div class="linha-vertical-nav"></div> 
-            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png" alt="Ícone salvar">Save Draft</button>
-            <button id="botao-load-draft">Load Draft</button>   
+            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
+                    alt="Ícone salvar">Save</button>
+            <button id="botao-cancelar"><img id="imagem-icone-cancelar" src="/imagens/cancel-icon.png"
+                    alt="Ícone cancelar">Cancel</button>
+            <button id="botao-editar"><img id="imagem-icone-editar" src="imagens/pencil-icon.png"
+                    alt="Ícone editar">Edit</button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-refresh"><img id="imagem-icone-refresh" src="imagens/refresh-icon.png" alt="Botão atualizar"></button>
-            <button id="botao-undo"><img id="imagem-icone-undo" src="imagens/undo-icon.png" alt="Ícone desfazer">Undo</button>  
-            <button id="botao-redo"><img id="imagem-icone-redo" src="imagens/redo_icon.png" alt="Ícone refazer">Redo</button>
+            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
+                    alt="Ícone salvar">Save Draft</button>
+            <button id="botao-load-draft">Load Draft</button>
+            <div class="linha-vertical-nav"></div>
+            <button id="botao-refresh"><img id="imagem-icone-refresh" src="imagens/refresh-icon.png"
+                    alt="Botão atualizar"></button>
+            <button id="botao-undo"><img id="imagem-icone-undo" src="imagens/undo-icon.png"
+                    alt="Ícone desfazer">Undo</button>
+            <button id="botao-redo"><img id="imagem-icone-redo" src="imagens/redo_icon.png"
+                    alt="Ícone refazer">Redo</button>
             <div class="linha-vertical-nav"></div>
             <button id="botao-check">Check</button>
             <div class="linha-vertical-nav"></div>
             <button class="botoes-icones-tabelas">
-                    <img class="imagens-icones-tabelas" src="imagens/tabel1-icon.png" alt="Ícone tabela 1">
+                <img class="imagens-icones-tabelas" src="imagens/tabel1-icon.png" alt="Ícone tabela 1">
             </button>
             <div class="linha-vertical-nav"></div>
             <button class="botoes-icones-tabelas">
-                    <img class="imagens-icones-tabelas" src="imagens/tabel2-icon.png" alt="Ícone tabela 2">
+                <img class="imagens-icones-tabelas" src="imagens/tabel2-icon.png" alt="Ícone tabela 2">
             </button>
             <div class="linha-vertical-nav"></div>
             <button class="botoes-icones-tabelas">
-                    <img class="imagens-icones-tabelas" src="imagens/tabel3-icon.png" alt="Ícone tabela 3">
+                <img class="imagens-icones-tabelas" src="imagens/tabel3-icon.png" alt="Ícone tabela 3">
             </button>
             <div class="linha-vertical-nav"></div>
             <button id="botao-addfunc">Additional Functions</button>
         </nav>
     </header>
-    <aside>
-        <div id="navegacao-tabela1">
-            <p id="navigation">Navigation</p>
-            <p id="repositories">Repositories</p>
-            <img id="botao-pasta" src="/imagens/paste-icon.png" alt="Explorar arquivos">
-        </div>
-        <table>
-            <thead>
-            <tr>
-                <th scope="col"></th>
-                <th scope="col">Page Type</th>
-                <th scope="col">Page Id</th>
-                <th scope="col">Title</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row"></th>
-                <td>Initial Page</td>
-                <td>INIT</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr class="linha-azulada">
-                <th class="coluna-vazia" scope="row"></thclass=scope=>
-                <td>Main Page</td>
-                <td>MAIN</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Main Page</td>
-                <td>MAIN_FAST_E</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Main Page</td>
-                <td>MAIN_FAST_E</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>Dialog Box</td>
-                <td>ADDRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-            </tbody>
-        </table>
-    </aside>
-    <section id="linha-vertical-maior"></section>
+    <section id="principal">
+        <aside>
+            <div id="navegacao-tabela1">
+                <p id="navigation">Navigation</p>
+                <p id="repositories">Repositories</p>
+                <img id="botao-pasta" src="/imagens/paste-icon.png" alt="Explorar arquivos">
+            </div>
+            <div id="indicador-1">
+                <img class="seta-azul-selected" src="./imagens/triangulo-icon.png" alt="Ícone triângulo">
+                <img id="blue-line" src="./imagens/quadrado-azul.png" alt="i">
+            </div>
+            <div id="buttons-table-one">
+                <button id="botao-new"><img id="imagem-folha-com-sol" src="./imagens/folha-com-sol.png"alt="folha com sol">New</button>
+                <button><img class="imagem-lixo" src="./imagens/trash-icon.png" alt="Lixeira"></button>
+                <button><img id="imagem-double-paper" src="./imagens/double-paper-icon.png" alt="Folha dupla"></button>
+                <div class="linha-vertical-nav"></div>
+                <button id="botao-up">Up</button>
+                <button id="botao-down">Down</button>
+                <button class="botao-user-config"><img class="user-config" src="./imagens/user-config-icon.png" alt="Configuração do Usuário"></button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Page Type</th>
+                        <th scope="col">Page Id</th>
+                        <th scope="col">Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Initial Page</td>
+                        <td>INIT</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr class="linha-azulada">
+                        <th class="coluna-vazia" scope="row"></th>
+                        <td>Main Page</td>
+                        <td>MAIN</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_E</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_E</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+        <main>
+            <section>
+                <section>
+                    <nav id="nav-table-2">
+                        <div id="navegacao-tabela2">
+                            <img src="./imagens/seta-para-baixo.png" alt="Seta para baixo">
+                            <p id="overview-page-schema">Overview Page Schema</p>
+                            <p id="toolbar-schema">Toolbar Schema</p>
+                            <p id="wire-schema">Wire Schema</p>
+                        </div>
+                        <div id="div-pasta">
+                            <img id="botao-pasta-2" src="/imagens/paste-icon.png" alt="Explorar arquivos">
+                        </div>
+                    </nav>
+                    <div id="indicador-2">
+                        <img class="seta-azul-selected" src="./imagens/triangulo-icon.png" alt="Ícone triângulo">
+                        <img class="blue-line-2" src="./imagens/quadrado-azul.png" alt="i">
+                    </div>
+                    <section id="section-botoes-table-two">
+                        <div id="buttons-table-two-part1">
+                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">Page Master Area</button>
+                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">Section</button>
+                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">UIBB</button>
+                            <div class="linha-vertical-nav"></div>
+                            <button><img class="imagem-lixo" src="./imagens/trash-icon.png" alt="Lixeira"></button>
+                            <button id="botao-up">Up</button>
+                            <button id="botao-down">Down</button>
+                        </div>
+                        <div id="buttons-table-two-part2">
+                            <button id="botao-UIBB">Configure UIBB</button>
+                            <button class="botao-user-config"><img class="user-config" src="./imagens/user-config-icon.png" alt="Configuração do Usuário"></button>
+                        </div>
+                    </section>
+                    <table id="table-2">
+                        <thead>
+                            <tr>
+                                <th scope="col"><img id="icone-de-repeticao" src="./imagens/repeticao-icon.png" alt="j"></th>
+                                <th class="table-2-resolution" scope="col">Element</th>
+                                <th class="table-2-resolution" scope="col">Component</th>
+                                <th class="table-2-resolution" scope="col">Config ID</th>
+                                <th class="table-2-resolution" scope="col">Window Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td id="cedula-cheia"><img id="seta-da-tabela2" src="./imagens/seta-para baixo-sem-circulo.png" alt="seta"><img id="cedula-verde" src="./imagens/tabela-verde-icone.png" alt="tabela">Section: SECTION_1</td>
+                                <td class="fundo-cinza"></td>
+                                <td class="fundo-cinza"></td>
+                                <td class="fundo-cinza"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                            <tr class="linha-azulada">
+                                <th class="coluna-vazia" scope="row"></th>
+                                <td><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM WINDOW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            <section id="scroll">
+                <div>
+                    <img class="setas-rolagem" src="./imagens/seta-scroll-esquerda.png" alt="seta esquerda">
+                    <img id="barra-de-rolagem" src="./imagens/linha-scroll.png" alt="Rolagem">
+                </div>
+                <div>
+                    <img class="setas-rolagem" src="./imagens/seta-scroll-direita.png" alt="seta direita">
+                </div>
+            </section>
+            <section id="formulario">
+                <section id="titulo-footer">
+                    <div>
+                        <p>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</p>
+                    </div>
+                    <div>
+                        <button>Final Flags</button>
+                    </div>
+                </section>
+                <img class="blue-line-2" src="./imagens/quadrado-azul.png" alt="i">
+                <section id="dados-formulario">
+                    <form id="dados-2">
+                        <div>
+                            <label>Title:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Image:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Padding:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Style:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Explanation Text:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Explanation Document:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Default Edit Page:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Default Details Page:</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                    <form id="dados">
+                        <div>
+                            <label><img src="./imagens/asterisco.png" alt="asterisco">Window Name:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Config ID:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Instance ID:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Column:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Row Number:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Sequence Index:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Default:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Hidden Element:</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                </section>
+            </section>
+    </section>
+    </main>
+    </section>
 </body>
+
 </html>
