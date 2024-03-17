@@ -1,25 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 #body-pagina-antiga {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E5E5E5;
+    background-color: #DCDCDC;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 #cabecalho-pagina-antiga > h1 {
+    margin: 0;
+    margin-top: 2px;
     padding-inline: 20px;
-    padding-block: 8px;
+    padding-block: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 180%;
-    background-color: #E5E5E5;
+    background-color: #DCDCDC;
 }
 
 #listras-tons-amarelos {
     background-image: url(./imagens/listras.png);
     background-repeat:repeat-x;
     padding-block: 10px;
+
 }
 
 #nav-pagina-antiga {
@@ -29,7 +30,7 @@
     padding-inline: 10px;
     padding-block: 10px;
     gap: 10px;
-    background-color: #E5E5E5;
+    background-color: #DCDCDC;
 
 }
 
@@ -49,6 +50,8 @@
     padding-inline: 6px;
     padding-block: 2.5px;
     white-space: nowrap;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-salvar {
@@ -59,6 +62,8 @@
 #botao-cancelar {
     padding-inline: 6px;
     padding-block: 4px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-cancelar {
@@ -70,6 +75,8 @@
 #botao-editar {
     padding-inline: 8px;
     padding-block: 4.3px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-editar {
@@ -82,11 +89,15 @@
     padding-inline: 8px;
     padding-block: 4.2px;
     white-space: nowrap;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #botao-refresh {
     padding-inline: 8px;
     padding-block: 4.6px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-refresh {
@@ -97,6 +108,8 @@
 #botao-undo {
     padding-inline: 8px;
     padding-block: 2.5px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-undo {
@@ -107,6 +120,8 @@
 #botao-redo {
     padding-inline: 8px;
     padding-block: 2.5px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-icone-redo {
@@ -117,11 +132,15 @@
 #botao-check {
     padding-inline: 10px;
     padding-block: 5px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 .botoes-icones-tabelas {
     padding-block: 4px;
     padding-inline: 8px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 .imagens-icones-tabelas {
@@ -133,6 +152,8 @@
     padding-block: 4px;
     padding-inline: 8px; 
     white-space: nowrap;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #principal {
@@ -156,8 +177,8 @@ aside {
 #navegacao-tabela1 {
     display: flex;
     padding-left: 20px;
-    padding-block: 8px;
-    padding-top: 15px;
+    padding-block: 5px;
+    padding-top: 5px;
     gap: 35px;
     align-items: center;
     background-color: #F2F2F2;
@@ -197,16 +218,9 @@ aside {
     width: 100%;
 }
 
-#linha-vertical-maior {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 200px;
-    border-right: 8px solid #E5E5E5;
-}
-
 table {
     border-collapse: collapse;
-    border: 0.1px solid #E5E5E4;
+    border: 0.1px solid #DCDCDC;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     background-color: white;
@@ -214,19 +228,19 @@ table {
   
 thead {
     text-align: left;
-    background-color: #E5E5E4;
+    background-color: #DCDCDC;
 }
 
 th, td {
     border: 0.1px solid rgb(160 160 160);
-    padding: 6px 7px;
+    padding: 6px 9px;
     font-weight: 150;
     white-space: nowrap;
 }
 
 th {
     text-align: start;
-    background-color: #E5E5E4;
+    background-color: #DCDCDC;
 }
 
 #nav-table-2 {
@@ -238,8 +252,7 @@ th {
 #navegacao-tabela2 {
     display: flex;
     padding-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 4px;
+    padding-top: 5px;
     gap: 10px;
     align-items: center;
 }
@@ -321,7 +334,7 @@ th {
     gap: 8px;
     padding-block: 6px;
     padding-inline: 10px;
-    background-color: #E5E5E4;
+    background-color: #DCDCDC;
 }
 
 .imagem-plus {
@@ -335,6 +348,8 @@ th {
     align-items: center;
     padding-inline: 8px;
     padding-block: 3px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #buttons-table-two-part2 {
@@ -344,14 +359,16 @@ th {
     gap: 8px;
     padding-block: 6px;
     padding-inline: 10px;
-    background-color: #E5E5E4;
+    background-color: #DCDCDC;
 }
 
 #botao-UIBB {
     display: flex;
     align-items: center;
     padding-inline: 8px;
-    padding-block: 3px;
+    padding-block: 4px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 .table-2-resolution {
@@ -368,8 +385,8 @@ th {
 }
 
 #icone-de-repeticao {
-    height: 32px; 
-    width: 40px;
+    height: 20px; 
+    width: 20px;
 }
 
 .fundo-cinza {
@@ -425,16 +442,18 @@ th {
 
 #formulario {
     margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 15px;
     background-color: white;
 }
 
 #titulo-footer {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-inline: 15px;
+    align-items: center;
 }
 
 #titulo-footer > div > p {
@@ -505,7 +524,9 @@ th {
     gap: 8px;
     padding-block: 8px;
     padding-inline: 10px;
-    background-color: #E5E5E4;
+    background-color: #DCDCDC;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #botao-new {
@@ -513,11 +534,22 @@ th {
     align-items: center;
     padding-inline: 4px;
     padding-block: 2px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #imagem-folha-com-sol {
     height: 20px;
     width: 20px;
+}
+
+.botoes-trash-double-paper {
+    display: flex;
+    align-items: center;
+    padding-inline: 1px;
+    padding-block: 2px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 .imagem-lixo {
@@ -535,6 +567,8 @@ th {
     align-items: center;
     padding-inline: 6px;
     padding-block: 4px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 #botao-down {
@@ -542,6 +576,8 @@ th {
     align-items: center;
     padding-inline: 6px;
     padding-block: 4px;
+    border-radius: 0%;
+    border: 0.1px solid rgb(160 160 160);
 }
 
 .user-config {
@@ -554,9 +590,6 @@ th {
     align-items: center;
     padding-inline: 3px;
     padding-block: 0px;
-}
-
-button {
     border-radius: 0%;
     border: 0.1px solid rgb(160 160 160);
 }
