@@ -6,7 +6,7 @@
     border: 0;
 }
 
-#cabecalho-pagina-antiga > h1 {
+#cabecalho-pagina-antiga>h1 {
     margin: 0;
     margin-top: 2px;
     padding-inline: 20px;
@@ -14,13 +14,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 180%;
     background-color: #DCDCDC;
+    white-space: nowrap;
 }
 
 #listras-tons-amarelos {
     background-image: url(./imagens/listras.png);
-    background-repeat:repeat-x;
+    background-repeat: repeat-x;
     padding-block: 10px;
-
+    width: 100%;
 }
 
 #nav-pagina-antiga {
@@ -40,7 +41,7 @@
     border-right: 1px solid rgb(175, 174, 169);
 }
 
-#nav-pagina-antiga > button {
+#nav-pagina-antiga>button {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -55,7 +56,7 @@
 }
 
 #imagem-icone-salvar {
-    height: 18px; 
+    height: 18px;
     width: 18px;
 }
 
@@ -67,7 +68,7 @@
 }
 
 #imagem-icone-cancelar {
-    height: 13px; 
+    height: 13px;
     width: 15px;
     padding-right: 3px;
 }
@@ -80,7 +81,7 @@
 }
 
 #imagem-icone-editar {
-    height: 15px; 
+    height: 15px;
     width: 15px;
     padding-right: 3px;
 }
@@ -101,7 +102,7 @@
 }
 
 #imagem-icone-refresh {
-    height: 15px; 
+    height: 15px;
     width: 15px;
 }
 
@@ -113,7 +114,7 @@
 }
 
 #imagem-icone-undo {
-    height: 20px; 
+    height: 20px;
     width: 20px;
 }
 
@@ -125,7 +126,7 @@
 }
 
 #imagem-icone-redo {
-    height: 20px; 
+    height: 20px;
     width: 20px;
 }
 
@@ -144,13 +145,13 @@
 }
 
 .imagens-icones-tabelas {
-    height: 17px; 
+    height: 17px;
     width: 17px;
 }
 
 #botao-addfunc {
     padding-block: 4px;
-    padding-inline: 8px; 
+    padding-inline: 8px;
     white-space: nowrap;
     border-radius: 0%;
     border: 0.1px solid rgb(160 160 160);
@@ -170,7 +171,7 @@ main {
 }
 
 aside {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background-color: white;
 }
 
@@ -195,7 +196,7 @@ aside {
 }
 
 #botao-pasta {
-    height: 20px; 
+    height: 18px;
     width: 20px;
     opacity: 70%;
     padding-right: 10px;
@@ -207,8 +208,8 @@ aside {
     background-color: #F2F2F2;
 }
 
-#indicador-1 > .seta-azul-selected {
-    height: 10px; 
+#indicador-1>.seta-azul-selected {
+    height: 10px;
     width: 30px;
     padding-left: 48px;
 }
@@ -225,15 +226,16 @@ table {
     font-size: 0.8rem;
     background-color: white;
 }
-  
+
 thead {
     text-align: left;
     background-color: #DCDCDC;
 }
 
-th, td {
+th,
+td {
     border: 0.1px solid rgb(160 160 160);
-    padding: 6px 9px;
+    padding: 6px 12px;
     font-weight: 150;
     white-space: nowrap;
 }
@@ -257,7 +259,7 @@ th {
     align-items: center;
 }
 
-#navegacao-tabela2 > img {
+#navegacao-tabela2>img {
     height: 40px;
     width: 50px;
 }
@@ -281,15 +283,13 @@ th {
 #div-pasta {
     display: flex;
     padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    gap: 35px;
+    padding-block: 0px;
     align-items: center;
 }
 
 #botao-pasta-2 {
-    height: 25px; 
-    width: 25px;
+    height: 18px;
+    width: 20px;
     opacity: 70%;
 }
 
@@ -300,8 +300,8 @@ th {
     background-color: #F2F2F2;
 }
 
-#indicador-2 > .seta-azul-selected {
-    height: 10px; 
+#indicador-2>.seta-azul-selected {
+    height: 10px;
     width: 30px;
     padding-left: 170px;
 }
@@ -312,7 +312,7 @@ th {
 }
 
 .imagem-tabela-2 {
-    height: 18px; 
+    height: 18px;
     width: 18px;
     padding-right: 5px;
     padding-left: 50px;
@@ -338,7 +338,7 @@ th {
 }
 
 .imagem-plus {
-    height: 20px; 
+    height: 20px;
     width: 18px;
     padding-right: 5px;
 }
@@ -374,7 +374,7 @@ th {
 .table-2-resolution {
     align-self: flex-start;
     padding-block: 6px;
-    padding-right: 300px;
+    padding-right: 295px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -385,7 +385,7 @@ th {
 }
 
 #icone-de-repeticao {
-    height: 20px; 
+    height: 20px;
     width: 20px;
 }
 
@@ -401,14 +401,14 @@ th {
 }
 
 #cedula-verde {
-    height: 18px; 
+    height: 18px;
     width: 18px;
     padding-right: 5px;
     padding-left: 8px;
 }
 
 #seta-da-tabela2 {
-    height: 8px; 
+    height: 8px;
     width: 12px;
     padding-left: 10px;
 }
@@ -420,7 +420,7 @@ th {
     background-color: white;
 }
 
-#scroll > div {
+#scroll>div {
     align-content: center;
 }
 
@@ -442,7 +442,7 @@ th {
 
 #formulario {
     margin-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
     background-color: white;
 }
 
@@ -456,17 +456,23 @@ th {
     align-items: center;
 }
 
-#titulo-footer > div > p {
+#titulo-footer>div>p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 600;
     padding-left: 10px;
 }
 
-#titulo-footer > div > button {
+#titulo-footer>div>button {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     padding-block: 4px;
-    padding-inline: 8px; 
+    padding-inline: 8px;
 }
 
 #dados-formulario {
@@ -477,13 +483,14 @@ th {
     padding-top: 20px;
 }
 
-#dados > div > label > img {
+#dados>div>label>img {
     padding-right: 3px;
     height: 15px;
     width: 20px;
 }
 
-#dados, #dados-2 {
+#dados,
+#dados-2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -491,27 +498,27 @@ th {
 }
 
 
- #dados-2 > div > input {
+#dados-2>div>input {
     padding-left: 150px;
     padding-bottom: 6px;
     border-radius: 0%;
     border: 0.1px solid rgb(160 160 160);
 }
 
-#dados > div > input {
+#dados>div>input {
     padding-left: 150px;
     padding-bottom: 6px;
     border-radius: 0%;
     border: 0.1px solid rgb(160 160 160);
 }
 
-#dados > div {
+#dados>div {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
 }
 
-#dados-2 > div {
+#dados-2>div {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -590,6 +597,13 @@ th {
     align-items: center;
     padding-inline: 3px;
     padding-block: 0px;
+    background-color: #E3E1E4;
     border-radius: 0%;
     border: 0.1px solid rgb(160 160 160);
+}
+
+.background-button {
+    background-color: #E3E1E4;
+    border-radius: 0%;
+    border: 0.1px solid rgb(179, 175, 175);
 }

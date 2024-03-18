@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAP Antigo</title>
-    <link rel="stylesheet" href="/style2.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body id="body-pagina-antiga">
@@ -13,40 +13,40 @@
         <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
         <div id="listras-tons-amarelos"></div>
         <nav id="nav-pagina-antiga">
-            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
+            <button class="background-button" id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
                     alt="Ícone salvar">Save</button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-cancelar"><img id="imagem-icone-cancelar" src="/imagens/cancel-icon.png"
+            <button class="background-button" id="botao-cancelar"><img id="imagem-icone-cancelar" src="/imagens/cancel-icon.png"
                     alt="Ícone cancelar">Cancel</button>
-            <button id="botao-editar"><img id="imagem-icone-editar" src="imagens/pencil-icon.png"
+            <button class="background-button" id="botao-editar"><img id="imagem-icone-editar" src="imagens/pencil-icon.png"
                     alt="Ícone editar">Edit</button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
+            <button class="background-button" id="botao-salvar"><img id="imagem-icone-salvar" src="imagens/button-save.png"
                     alt="Ícone salvar">Save Draft</button>
-            <button id="botao-load-draft">Load Draft</button>
+            <button class="background-button" id="botao-load-draft">Load Draft</button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-refresh"><img id="imagem-icone-refresh" src="imagens/refresh-icon.png"
+            <button class="background-button" id="botao-refresh"><img id="imagem-icone-refresh" src="imagens/refresh-icon.png"
                     alt="Botão atualizar"></button>
-            <button id="botao-undo"><img id="imagem-icone-undo" src="imagens/undo-icon.png"
+            <button class="background-button" id="botao-undo"><img id="imagem-icone-undo" src="imagens/undo-icon.png"
                     alt="Ícone desfazer">Undo</button>
-            <button id="botao-redo"><img id="imagem-icone-redo" src="imagens/redo_icon.png"
+            <button class="background-button" id="botao-redo"><img id="imagem-icone-redo" src="imagens/redo_icon.png"
                     alt="Ícone refazer">Redo</button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-check">Check</button>
+            <button class="background-button" id="botao-check">Check</button>
             <div class="linha-vertical-nav"></div>
-            <button class="botoes-icones-tabelas">
+            <button class="background-button" class="botoes-icones-tabelas">
                 <img class="imagens-icones-tabelas" src="imagens/tabel1-icon.png" alt="Ícone tabela 1">
             </button>
             <div class="linha-vertical-nav"></div>
-            <button class="botoes-icones-tabelas">
+            <button class="background-button" class="botoes-icones-tabelas">
                 <img class="imagens-icones-tabelas" src="imagens/tabel2-icon.png" alt="Ícone tabela 2">
             </button>
             <div class="linha-vertical-nav"></div>
-            <button class="botoes-icones-tabelas">
+            <button class="background-button" class="botoes-icones-tabelas">
                 <img class="imagens-icones-tabelas" src="imagens/tabel3-icon.png" alt="Ícone tabela 3">
             </button>
             <div class="linha-vertical-nav"></div>
-            <button id="botao-addfunc">Additional Functions</button>
+            <button class="background-button" id="botao-addfunc">Additional Functions</button>
         </nav>
     </header>
     <section id="principal">
@@ -61,13 +61,17 @@
                 <img id="blue-line" src="./imagens/quadrado-azul.png" alt="i">
             </div>
             <div id="buttons-table-one">
-                <button id="botao-new"><img id="imagem-folha-com-sol" src="./imagens/folha-com-sol.png"alt="folha com sol">New</button>
-                <button class="botoes-trash-double-paper"><img class="imagem-lixo" src="./imagens/trash-icon.png" alt="Lixeira"></button>
-                <button class="botoes-trash-double-paper"><img id="imagem-double-paper" src="./imagens/double-paper-icon.png" alt="Folha dupla"></button>
+                <button class="background-button" id="botao-new"><img id="imagem-folha-com-sol" src="./imagens/folha-com-sol.png"
+                        alt="folha com sol">New</button>
+                <button class="background-button" class="botoes-trash-double-paper"><img class="imagem-lixo" src="./imagens/trash-icon.png"
+                        alt="Lixeira"></button>
+                <button class="background-button" class="botoes-trash-double-paper"><img id="imagem-double-paper"
+                        src="./imagens/double-paper-icon.png" alt="Folha dupla"></button>
                 <div class="linha-vertical-nav"></div>
-                <button id="botao-up">Up</button>
-                <button id="botao-down">Down</button>
-                <button class="botao-user-config"><img class="user-config" src="./imagens/user-config-icon.png" alt="Configuração do Usuário"></button>
+                <button class="background-button" id="botao-up">Up</button>
+                <button class="background-button" id="botao-down">Down</button>
+                <button class="botao-user-config"><img class="user-config" src="./imagens/user-config-icon.png"
+                        alt="Configuração do Usuário"></button>
             </div>
             <table>
                 <thead>
@@ -168,23 +172,29 @@
                     </div>
                     <section id="section-botoes-table-two">
                         <div id="buttons-table-two-part1">
-                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">Page Master Area</button>
-                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">Section</button>
-                            <button class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png" alt="plus">UIBB</button>
+                            <button class="background-button" class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png"
+                                    alt="plus">Page Master Area</button>
+                            <button class="background-button" class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png"
+                                    alt="plus">Section</button>
+                            <button class="background-button" class="botoes-plus"><img class="imagem-plus" src="./imagens/doc-plus-icon.png"
+                                    alt="plus">UIBB</button>
                             <div class="linha-vertical-nav"></div>
-                            <button class="botoes-trash-double-paper"><img class="imagem-lixo" src="./imagens/trash-icon.png" alt="Lixeira"></button>
-                            <button id="botao-up">Up</button>
-                            <button id="botao-down">Down</button>
+                            <button class="background-button" class="botoes-trash-double-paper"><img class="imagem-lixo"
+                                    src="./imagens/trash-icon.png" alt="Lixeira"></button>
+                            <button class="background-button" id="botao-up">Up</button>
+                            <button class="background-button" id="botao-down">Down</button>
                         </div>
                         <div id="buttons-table-two-part2">
-                            <button id="botao-UIBB">Configure UIBB</button>
-                            <button class="botao-user-config"><img class="user-config" src="./imagens/user-config-icon.png" alt="Configuração do Usuário"></button>
+                            <button class="background-button" id="botao-UIBB">Configure UIBB</button>
+                            <button class="botao-user-config"><img class="user-config"
+                                    src="./imagens/user-config-icon.png" alt="Configuração do Usuário"></button>
                         </div>
                     </section>
                     <table id="table-2">
                         <thead>
                             <tr>
-                                <th scope="col"><img id="icone-de-repeticao" src="./imagens/repeticao-icon.png" alt="j"></th>
+                                <th scope="col"><img id="icone-de-repeticao" src="./imagens/repeticao-icon.png" alt="j">
+                                </th>
                                 <th class="table-2-resolution" scope="col">Element</th>
                                 <th class="table-2-resolution" scope="col">Component</th>
                                 <th class="table-2-resolution" scope="col">Config ID</th>
@@ -194,49 +204,58 @@
                         <tbody>
                             <tr>
                                 <th scope="row"></th>
-                                <td id="cedula-cheia"><img id="seta-da-tabela2" src="./imagens/seta-para baixo-sem-circulo.png" alt="seta"><img id="cedula-verde" src="./imagens/tabela-verde-icone.png" alt="tabela">Section: SECTION_1</td>
+                                <td id="cedula-cheia"><img id="seta-da-tabela2"
+                                        src="./imagens/seta-para baixo-sem-circulo.png" alt="seta"><img
+                                        id="cedula-verde" src="./imagens/tabela-verde-icone.png" alt="tabela">Section:
+                                    SECTION_1</td>
                                 <td class="fundo-cinza"></td>
                                 <td class="fundo-cinza"></td>
                                 <td class="fundo-cinza"></td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png"
+                                        alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
                             </tr>
                             <tr class="linha-azulada">
                                 <th class="coluna-vazia" scope="row"></th>
-                                <td><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB
+                                    SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png"
+                                        alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png"
+                                        alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png"
+                                        alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png" alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
+                                <td class="fundo-cinza"><img class="imagem-tabela-2" src="./imagens/tabela-4-icon.png"
+                                        alt="tabela">UIBB SOTR/SCMTMS/UI_...</td>
                                 <td>FPM_FORM_UIBB_GL2</td>
                                 <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
                                 <td>FORM WINDOW</td>
@@ -260,7 +279,7 @@
                         <p>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</p>
                     </div>
                     <div>
-                        <button class="botoes-plus">Final Flags</button>
+                        <button class="background-button" class="botoes-plus">Final Flags</button>
                     </div>
                 </section>
                 <img class="blue-line-2" src="./imagens/quadrado-azul.png" alt="i">
@@ -334,10 +353,8 @@
                         </div>
                     </form>
                 </section>
-            </section>
-    </section>
-    </main>
+            </section> 
+        </main>
     </section>
 </body>
-
 </html>
