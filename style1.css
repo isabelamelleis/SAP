@@ -1,14 +1,19 @@
-#body-index1 {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body-index2 {
     display: flex;
 }
 
-#article-index1 {
+#article-index2 {
     width: 65%;
     margin-left: 1%;
 }
 
 /*------------------ARTICLE SECTION 1-----------------*/
-#article-section1-index1 {
+#article-section1-index2 {
     width: auto;
     height: 150px;
     display: flex;
@@ -19,31 +24,52 @@
     padding: 5%;
     margin-bottom: 2.5%;
     margin-right: 2.5%;
+    margin-top: 1%;
 }
 
-#article-section1-index1 img {
+#article-section1-index2 img {
     height: 200px;
     width: auto;
 }
 
-#mensagens-posso-ajudar-index1 {
+#mensagens-posso-ajudar-index2 {
     color: #3959b4;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 21px;
 }
 
-#botao-fale-comigo-index1 {
+#mensagens-posso-ajudar-index2 div {
+    padding-top: 10%;
+}
+
+#botao-fale-comigo-index2 {
     background-color: #3959b4;
     color: white;
     border-radius: 10px;
     border: 0;
     text-align: start;
-    padding-left: 5%;
+    padding-left: 7%;
     width: 60%;
+    height: 22px;
+    margin-right: 40%;
 }
 
-.botao-index1 {
+#div-botao-fale-comigo {
+    position: relative;
+    align-items: center;
+}
+
+#botao-fale-comigo-index1, #seta-botao-fale-comigo {
+    position: absolute;
+}
+
+#seta-botao-fale-comigo {
+    z-index: 1;
+    margin-left: 20%;
+}
+
+.botao-index2 {
     background-color: #3959b4;
     color: white;
     border-radius: 10px;
@@ -54,37 +80,135 @@
     font-size: 70%;
 }
 
-.seta-index1 {
+.seta-index2 {
     border: 0;
     border-radius: 100%;
     color: #3959b4;
     background-color: white;
+    width: 20px;
+    height: 24px;
 }
 
-.botao-e-seta-index1 {
+.botao-e-seta-index2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#botoes-posso-ajudar-index1 {
+#botoes-posso-ajudar-index2 {
     margin-right: 5%;
 }
 
-#article-section1-index1 #botoes-posso-ajudar-index1 div {
+#article-section1-index2 #botoes-posso-ajudar-index2 div {
     margin: 2%;
 }
+
+/*-----------------ARTICLE SECTION 2------------------*/
+
+#article-section2-index2 {
+    width: auto;
+    height: 240px;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    margin-right: 2.5%;
+    padding: 1%;
+}
+
+.imagens-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.seta-para-lado {
+    color: #3959b4;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.formatacao-produtos {
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 1%;
+    width: 117px;
+    height: 140px;
+    text-align: center;
+}
+
+.formatacao-produtos img {
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+} 
+
+.formatacao-produtos p {
+    font-family: "Roboto", sans-serif;
+    font-size: 60%;
+    font-weight: bold;
+    text-align: start;
+}
+
+.botao-compra-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 4%;
+}
+
+.botao-compra-produtos button {
+    border-radius: 100%;
+    border: 0;
+    color: #3959b4;
+    font-weight: bold;
+    background-color: rgb(145, 193, 255);
+    height: 24px;
+    width: 20px;
+    text-align: center;
+}
+
+#formatacao-caderno {
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.botoes-opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin: 3%
+}
+
+.botoes-opcoes button {
+    height: 8px;
+    width: 8px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#botao-opcao-azul {
+    background-color: #3959b4;
+}
+
+.botao-opcao-branco {
+    background-color: white;
+}
+
 /*-------------------ASIDE SECTION 1-------------------*/
 
-#aside-index1{
+#aside-index2{
     width: 35%;
     margin-right: 1%;
 }
 
-#aside-section1-index1{
+#aside-section1-index2{
+    margin-top: 2%;
     width: auto;
-    height: 231px;
+    height: 220px;
     background-color: #dae9f7;
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
     margin-bottom: 2.5%;
 }
 
@@ -119,13 +243,14 @@
     font-weight: bolder;
     font-size:medium;
     text-align: center;
+    padding-top: 1%;
 }
 
 #colunas-aside-section1 {
     display: flex;
     justify-content: space-between;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 4%;
+    padding-bottom: 2%;
     font-family: "Roboto", sans-serif;
     color: #3959b4;
     font-weight: bolder;
@@ -141,11 +266,10 @@
 }
 
 #hr-aside-section1 {
-    border-color: white;
-    margin-top: 0;
-    padding: 0;
-    margin-bottom: 0;
-    width: 95%;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    margin-bottom: 2%;
 }
 
 .linhas-status-pedidos {
@@ -158,7 +282,7 @@
     font-weight: bolder;
     background-color: white;
     margin: 6px;
-    height: 12%;
+    height: 14%;
     border-radius: 5px;
     align-items: center;
 }
@@ -205,107 +329,161 @@
     text-align: center;
 }
 
-/*-----------------ARTICLE SECTION 2------------------*/
+/*-----------------ASIDE SECTION 2--------------------*/
 
-#article-section2-index1 {
+#aside-section2-index2{
+    margin-top: 4.6%;
     width: auto;
-    height: 200px;
+    height: 240px;
     background-color: #dae9f7;
     border-radius: 10px;
-    margin-right: 2.5%;
+    padding: 2%;
 }
 
-#imagens-produtos-article-section2 {
+.mensagens-usuarios {
     display: flex;
-}
-
-.formatacao-produtos {
+    height: 13%;
     background-color: white;
-    height: 10%;
-    border-radius: 8px;
+    margin: 1.5%;
+    border-radius: 5px;
+    padding: 1.5%;
+    padding-left: 2%;
 }
 
-.formatacao-produtos img {
-    height: 130px;
+.mensagens-usuarios img {
+    height: 100%;
     width: auto;
-    border-radius: 8px;
+    border-radius: 100%;
 }
 
-.formatacao-produtos p {
+.nome-data-mensagens-usuarios {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 2%;
     font-family: "Roboto", sans-serif;
-    font-size: 60%;
-    font-weight: bold;
+    font-size: 70%;
 }
 
-.botao-compra-produtos {
+.nome-e-data {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 7%;
 }
 
-.botao-compra-produtos button {
-    border-radius: 100%;
-    border: 0;
-    color: #3959b4;
-    font-weight: bold;
-    background-color: rgb(145, 193, 255);
-    height: 23px;
-    width: 20px;
-    text-align: center;
-    padding-right: 18px;
+.nome-usuario {
+    font-weight:bolder;
+    padding-bottom: 2%;
+    font-size: 120%;
 }
 
+/*-----------------ASIDE SECTION 3--------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#article-section3-index1 {
+#aside-section3-index2{
     width: auto;
-    height: 200px;
+    height: 230px;
     background-color: #dae9f7;
     border-radius: 10px;
     padding: 1%;
+    margin-top: 4.2%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+#imagens-produtos-aside-sections3 {
+    margin-top: 2%;
+}
+
+#botoes-opcoes-aside-section3 {
+    margin: 5%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------ARTICLE SECTION 3------------------*/
+
+#article-section3-index2 {
+    width: auto;
+    height: 230px;
+    background-color: #dae9f7;
+    border-radius: 10px;
+    padding: 1%;
+    padding-top: 2%;
     margin-right: 2.5%;
     margin-top: 2.5%;
 }
 
-#aside-section2-index1{
-    width: auto;
-    height: 200px;
-    background-color: #dae9f7;
-    border-radius: 10px;
-    padding: 1%;
+.linhas-status-requisicoes {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    margin: 2%;
+    border-radius: 6px;
 }
 
-#aside-section3-index1{
-    width: auto;
-    height: 200px;
-    background-color: #dae9f7;
-    border-radius: 10px;
-    padding: 1%;
-    margin-top: 2.5%;
+.numero-requisicao {
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    padding-left: 2%;
+}
+
+.bolinhas-mensagens-requisicoes {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.bolinhas-requisicoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bolinha-verde {
+    background-color: #57BA69;
+    border: 0;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.bolinha-amarela {
+    background-color: #FBCC33;
+    border: 0;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.bolinha-azul {
+    background-color: white;
+    border: 100%;
+    border-color: #3959b4 ;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.mensagens-requisicoes {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 70%;
 }
